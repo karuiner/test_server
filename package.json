@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "node ./src/index.js",
-    "deploy": "gh-pages -d start ",
+    "deploy": "gh-pages -d src ",
     "predeploy": "npm install"
   },
   "dependencies": {
