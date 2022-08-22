@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "node ./src/index.js",
+    "deploy": "gh-pages -d start ",
+    "predeploy": "npm install"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "gh-pages": "^4.0.0"
+  },
+  "homepage": "https://karuiner.github.io/test_server"
+}
